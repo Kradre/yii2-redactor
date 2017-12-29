@@ -36,7 +36,7 @@ class RedactorModule extends \yii\base\Module
 
     public function getOwnerPath()
     {
-        return $uploadSubdir;
+        return $this->uploadSubdir;
     }
 
     /**
