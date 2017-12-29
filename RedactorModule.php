@@ -31,11 +31,12 @@ class RedactorModule extends \yii\base\Module
     public $fileAllowExtensions = null;
     public $widgetOptions=[];
     public $widgetClientOptions=[];
+	public $uploadSubdir = 'redactor-files';
 
 
     public function getOwnerPath()
     {
-        return Yii::$app->user->isGuest ? 'guest' : Yii::$app->user->id;
+        return $uploadSubdir;
     }
 
     /**

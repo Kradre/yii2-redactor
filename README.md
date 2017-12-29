@@ -10,12 +10,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yiidoc/yii2-redactor "*"
+php composer.phar require --prefer-dist kradre/yii2-redactor "*"
 ```
 
  or
 ```
- "yiidoc/yii2-redactor": "*"
+ "kradre/yii2-redactor": "*"
 ```
 
 to the require section of your composer.json.
@@ -40,6 +40,7 @@ default value `@webroot/uploads`
             'class' => 'yii\redactor\RedactorModule',
             'uploadDir' => '@webroot/path/to/uploadfolder',
             'uploadUrl' => '@web/path/to/uploadfolder',
+			'uploadSubdir' => 'name',
             'imageAllowExtensions'=>['jpg','png','gif']
         ],
     ],
@@ -78,6 +79,6 @@ or config advanced redactor reference [Docs](http://imperavi.com/redactor/docs/)
 ```
 
 Bummer! i was tested on my project but not have many time to write document on file and usage.
-If you have problem please create a [issue](https://github.com/yiidoc/yii2-redactor/issues)
+If you have problem please create a [issue](https://github.com/kradre/yii2-redactor/issues)
 
 Thanks!
