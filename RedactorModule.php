@@ -32,7 +32,7 @@ class RedactorModule extends \yii\base\Module
     public $widgetOptions=[];
     public $widgetClientOptions=[];
 	public $uploadSubdir = 'redactor-files';
-
+    //Upadte for git
 
     public function getOwnerPath()
     {
